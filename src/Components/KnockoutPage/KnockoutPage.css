@@ -1,0 +1,23 @@
+.react-flow__node{
+    display: flex;
+    align-items: center;
+    width: 250px !important;
+}
+.react-flow__node .team{
+    font-size: 18px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.teamName {
+    width: 75%;
+}
+
+.goals{
+    padding-left: 5px;
+    font-weight: 600;
+}
+.countryContainerDiv{
+    height: 100vh;
+}

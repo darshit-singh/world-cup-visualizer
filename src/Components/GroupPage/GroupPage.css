@@ -1,0 +1,38 @@
+.groupContainer{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+table {
+    border-collapse: collapse;
+    background-color: #fff;
+    width: 80%;
+    margin-top: 40px;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+th {
+    padding: 1em;
+    border: 1px solid #a2a9b1;
+}
+td {
+    text-align: center;
+    border: 1px solid #a2a9b1;
+    padding: 0;
+}
+.flag{
+    vertical-align: middle;
+    text-align: left;
+}
+.flag img {
+    margin-right: 5px;
+}
+.backgroundQualify{
+    background-color: #bbf3bb;
+}
